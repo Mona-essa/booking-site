@@ -10,7 +10,8 @@ body{
 }
 /*start navbar*/
 nav{
-    background-color:#2A9846;
+    /*background-color:#2A9846;*/
+    background-color: black;
     padding-top:20px;
 }
 
