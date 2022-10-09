@@ -1,0 +1,223 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Roboto Serif','cairo','sans-serif';
+    overflow-x: hidden;
+   
+    -webkit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    perspective: 800px;
+   
+}
+html{
+    height: 100%;
+}
+.clear{
+    clear: both;
+}
+.header{
+    z-index: 9;
+    position: relative;
+    color:white;
+    padding-top:50px;
+}
+.header ul{
+    list-style: none;
+    display: inline-block;
+}
+.header ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.header ul li a:hover{
+    color:white;
+}
+
+.navLink{
+     position: relative;
+     display: inline-block;
+     margin-right: 20px;
+}
+.navLink::before{
+    content:" ";
+    position: absolute;
+    left:0;
+    bottom: 0;
+    width:0;
+    height: 2px;
+    background-color:aliceblue;
+    transition: .3s;
+}
+.navLink:hover::before{
+    width:100%;
+}
+
+#carouselExampleControls{
+    top:0;
+    width:100%;
+    position: absolute;
+    
+}
+.carousel img{
+    height: 700px;
+    width: 100%;
+}
+.carousel-caption {
+    top:300px;
+    left: 0;
+}
+.carousel .carousel-caption h3{
+    font-size:100px;
+}
+
+.about{
+    margin: 650px auto;
+    height: 550px;
+    background-color:#eee;
+    padding-top:50px;
+    
+}
+.about img{
+    margin-right: 10px;
+    position: absolute;
+}
+.about-main{
+    line-height: 1.6;
+}
+
+.fur-img2{
+ right:150px;
+ top:850px;
+}
+
+.offers {
+    position: relative;
+    top:-600px;
+}
+.offers button{
+    transition: .3s;
+    width:100%;
+    color:#0D6EFD;
+}
+.offers button:hover{
+  background-color: #0D6EFD;
+  color:white;
+}
+.offers img{
+    transition: .4s;
+    box-shadow: 5px 10px 10px #333;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+.offers img:hover{
+   
+    transform: translateZ(30px);
+    
+}
+
+.offer-img{
+    perspective: 600px;
+    perspective-origin: center;
+
+}
+
+.food{
+    position: relative;
+    top:-550px;
+    background-color:#fff;
+    height: 500px;
+    padding-top:30px;
+}
+.food img{
+    position: absolute;
+    width:300px;
+    height: 400px;
+}
+.food-img1{
+    left:430px;
+    top:100px;
+}
+.food p{
+    line-height: 1.6;
+    color:#9C9C9C;
+   
+}
+.food button{
+    background-color:transparent;
+}
+.food button:hover{
+    color:#0D6EFD;
+    }
+.resev{
+    position: relative;
+    
+    top:-450 px;
+    
+}
+.resev-fo{ 
+    border:2px solid #9C9C9C;
+    padding:40px 0;
+
+}
+.resev h2{
+    float:left;
+}
+
+.resev button{
+    border-radius: 40px;
+    width:300px;
+    padding:15px 0;
+    float: right;
+    color:white;
+    font-size: 20px;
+    transition: .3s;
+}
+.resev button:hover{
+    background-color:white;
+    color:#0D6EFD;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    padding-top:30px;
+    line-height: 1.6;
+    width: 100%;
+}
+footer h3, p{
+    color:white;
+}
+footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    transition: .3s;
+}
+footer ul li a:hover{
+    color:white;
+}
+footer input{
+    height: 38px;
+    
+}
+footer form{
+    position: relative;
+}
+footer form button{
+    position: absolute;
+    right: 68px;
+}
+
+#collapseMenu{
+   
+}
+
+
+

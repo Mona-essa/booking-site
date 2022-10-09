@@ -1,0 +1,142 @@
+/* start navbar*/
+nav .container{
+    background-color:#2A9846;
+    color:aliceblue;
+    height:auto;
+    display: flex;
+    padding:10px;
+    
+    
+}
+nav .brand{
+    float: left;
+    width:30%;
+    font-weight: bold;
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+nav .links {
+  float: right;
+    width:70%;
+    text-align: right;
+    
+}
+nav .links ul li a{
+    text-decoration: none;
+    color:aliceblue;
+}
+nav .links ul li{
+    display: inline-block;
+    padding:0 10px;
+}
+/* end navbar*/
+
+.main-image {
+    background-image: url(../images/bg9.jpg);
+    background-size:cover;
+    height:450px;
+    margin-bottom: 25px;
+}
+
+
+.content  .con{
+    width:30%;
+    display: inline-block;
+    text-align: center;
+}
+.content .con p{
+    line-height: 1.6;
+    padding-left: 10px;
+}
+   
+.content .container img{
+    width:300px;
+}
+
+footer .container{
+   background-color:#2A9846;
+}
+
+footer .container img{
+    width:70px;
+    height: 60px;
+    
+    
+}
+
+footer .container{
+    display:flex;
+    padding:20px;
+    margin-top:30px;
+    height: 300px;
+}
+
+footer .address, .footer-links{
+    width:30%;
+}
+
+footer ul{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color:aliceblue;
+    line-height: 1.6;
+}
+
+@media(max-width:360px){
+    .main-image{
+        background-image: url(../images/bg2.jpg);
+        background-size: cover;
+        
+    }
+    .content .con p{
+    line-height: 1.2;
+    padding-left: 10px;
+}
+    .content  .con{
+    width:100%;
+    text-align: center;
+
+}
+    
+    footer ul li a{
+    line-height: 1.2;
+}
+    
+    footer .container{
+   display:block;
+    padding:20px;
+    margin-top:30px;
+    text-align: center;
+    align-items: center;
+    height: auto;
+    padding-left: 90px;
+    
+}
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
