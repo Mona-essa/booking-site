@@ -21,6 +21,17 @@ nav{
 .navbar-brand{
     margin-right: 20rem;
 }
+.bar-container{
+    position: relative;
+}
+.bars{
+    display: block;
+    width:23px;
+    height: 3px;
+    background-color:white;
+    margin:3px;
+    margin-right: 3px;
+}
 
 .navbar-expand-lg .navbar-collapse ul li :hover{
     background-color:transparent;
