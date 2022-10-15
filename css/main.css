@@ -146,6 +146,7 @@ html{
     .about img{
       position: relative;
       height: 200px;
+      width:300px;
       border-radius: 30px;
     }
    .about-main{
@@ -153,8 +154,9 @@ html{
    }
    .about{
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     text-align: center;
+    
    }
    footer{
     
@@ -165,6 +167,7 @@ html{
 .offers {
     position: relative;
     top:-600px;
+    text-align: center;
 }
 .offers button{
     transition: .3s;
@@ -230,6 +233,7 @@ html{
         }
         .food{
             height: auto;
+            text-align: center ;
         }
         .food-img1{
             left: 0;
@@ -237,17 +241,19 @@ html{
         }
        .food img{
         position: relative;
-        width: 275px;
+        width: 300px;
         height: 330px;
         padding-left: 10px;
         margin-bottom: 10px;
+        border-radius: 30px;
        }
            
     }
 .resev{
-    position: relative;
-    
-    top:-450 px;
+    position:absolute;
+    bottom:330px;
+    left: 0;
+    width: 100%;
     
 }
 .resev-fo{ 
@@ -272,6 +278,26 @@ html{
     background-color:white;
     color:#0D6EFD;
 }
+
+@media(max-width:991px){
+    .resev h2{
+      font-size: 20px;
+      }
+    .resev{
+        bottom:9%;
+        margin-top: 20px;
+    }
+    .resev .btn-info{
+        width:100px;
+        font-size: 15px;
+        padding:0 10px;
+    }
+    .resev-fo{
+        height: auto;
+        padding:10px 15px;
+    }
+}
+
 
 footer{
     position: fixed;
@@ -302,7 +328,7 @@ footer form button{
     position: absolute;
     right: 68px;
 }
-@media(max-width:991){
+@media(max-width:991px){
     
     form {
         position: relative;
