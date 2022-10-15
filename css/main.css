@@ -59,6 +59,50 @@ html{
 .navLink:hover::before{
     width:100%;
 }
+.toggle-menu{
+    position: absolute;
+    left: 50px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 30px;
+    display: none;
+    
+}
+
+@media(max-width:991px){
+   .list-menu .nav-ul{
+        display: none;
+    }
+   .list-menu .open{
+        background-color: white;
+        width:300px;
+        position: absolute;
+        left: 75px;
+        top: 90px;
+        transition: .3s;
+        display: block;
+        padding:10px;
+    }
+    .list-menu .open li {
+        list-style: none;
+        text-align: left;
+        display: block;
+        background-color: #ddd;
+        margin-bottom: 6px;
+        }
+        .list-menu  .open li a{
+        text-decoration: none;
+        color:black;
+       }
+    .toggle-menu{
+        display: block;
+    }
+    .link-ul{
+        display:none;
+    }
+   
+}
 
 #carouselExampleControls{
     top:0;
@@ -87,15 +131,35 @@ html{
 }
 .about img{
     margin-right: 10px;
-    position: absolute;
+    /*position: absolute;*/
+    width: 240px;
+    height: 400px;
 }
 .about-main{
     line-height: 1.6;
 }
 
 .fur-img2{
- right:150px;
- top:850px;
+ margin-top:10%;
+}
+@media(max-width:991px){
+    .about img{
+      position: relative;
+      height: 200px;
+      border-radius: 30px;
+    }
+   .about-main{
+    margin-bottom: 10px;
+   }
+   .about{
+    height: auto;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+   footer{
+    
+    padding-bottom: 10px;
+   }
 }
 
 .offers {
@@ -140,6 +204,7 @@ html{
     position: absolute;
     width:300px;
     height: 400px;
+    padding-top:0;
 }
 .food-img1{
     left:430px;
@@ -155,6 +220,29 @@ html{
 }
 .food button:hover{
     color:#0D6EFD;
+    }
+   
+    @media(max-width:991px){
+        .food-des{
+            padding-top:10px;
+            width: 100%;
+            
+        }
+        .food{
+            height: auto;
+        }
+        .food-img1{
+            left: 0;
+            top: 0;
+        }
+       .food img{
+        position: relative;
+        width: 275px;
+        height: 330px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+       }
+           
     }
 .resev{
     position: relative;
@@ -214,10 +302,19 @@ footer form button{
     position: absolute;
     right: 68px;
 }
-
-#collapseMenu{
-   
+@media(max-width:991){
+    
+    form {
+        position: relative;
+        text-align: left;
+    }
+    footer form button{
+        position: relative;
+    }
+    
 }
+
+
 
 
 
