@@ -26,39 +26,29 @@
 <body> 
    <div class="header">
     <div class="row text-uppercase fw-bold">
-        <div class="col col-lg-5 list-menu d-lg-block d-none collapse">
-            <ul>
+        <div class="col col-lg-5 list-menu">
+            <ul class="nav-ul" id="nav-ul">
                 <li class="navLink"><a href="index.html">home</a></li>
                 <li class="navLink"><a href="#">room</a></li>
                 <li class="navLink"><a href="#">about</a></li>
                 <li class="navLink"><a href="#">blog</a></li>
             </ul> 
+            <button class="toggle-menu" id="toggle-menu"><i class="fa-solid fa-bars"></i>
+            </button>
         </div>
 
         <div class="col col-lg-2">
          <h2>logo</h2>
         </div>
 
-        <div class="col col-lg-5 d-lg-block d-none collapse" id="collapseMenu">
-            <ul >
+        <div class="col col-lg-5 link-ul">
+            <ul>
            <li><i class="fa-brands fa-facebook"></i></li>
            <li><i class="fa-brands fa-twitter"></i></li>`
            <li><i class="fa-brands fa-instagram"></i></li>
          </ul>
          <button class="btn btn-primary">book a room</button>
         </div>
-        
-          <div class="col-12">
-            <div class="mobil-view d-lg-none d-block">
-              <div class="smallNav">
-                <button class="btn btn-primary navbar-toggler " type="button" data-toggle="collapse" data-target="#collapseMenu" aria-expanded="false" aria-controls="#collapseMenu" data-bs-toggle="collapse" data-bs-target="#collapseMenu"   aria-label="Toggle navigation" >
-                  Menu
-                  
-                </button>
-                
-              </div>
-            </div>
-          </div>
         </div>
     </div>
   </div>
@@ -103,7 +93,7 @@
 <div class="about">
   <div class="container">
      <div class="row">
-        <div class="col col-lg-5 about-main">
+        <div class="col col-lg-5 col-sm-12 about-main">
             <h5>About Us</h5>
             <h1>A Luxuries Hotel
                 with Nature</h1>
@@ -111,9 +101,9 @@
            <button class="btn btn-primary">Learn More</button>
         </div>
 
-        <div class="col col-lg-7">
-          <img class="fur-img1" src="./images/fur-pic1.jpg" width="284px" height="400px" alt="fur-img1">
-          <img class="fur-img2" src="./images/fur-pic2.jpg " width="284px" height="400px" alt="fut-img2">
+        <div class="col col-lg-7 col-sm-12 img-container">
+          <img class="fur-img1" src="./images/fur-pic1.jpg" alt="fur-img1">
+          <img class="fur-img2" src="./images/fur-pic2.jpg "  alt="fut-img2">
 
         </div>
     </div>
@@ -175,12 +165,12 @@
 <div class="food">
   <div class="container">
     <div class="row">
-      <div class="col col-lg-7">
+      <div class="col col-lg-7 col-sm-12 img-food">
        <img class="food-img1" src="./images/food-img1.jpg" alt="food-img">
        <img src="./images/food-img2.webp" alt="food-img">
       </div>
 
-      <div class="col col-lg-5">
+      <div class="col col-lg-5 col-sm-12 food-des">
         <h4 class="text-primary">Delicious Food</h4>
         <h1>We Serve Fresh and
           Delicious Food</h1>
@@ -221,9 +211,9 @@
        <p>+10 367 267 2678
         reservation@montana.com</p>
       </div>
-      <div class="col col-lg-2">
+      <div class="col col-lg-2 ">
        <h3>Navigation</h3>
-       <ul>
+       <ul >
         <li><a href="#">Home</a></li>
         <li><a href="#">Rooms</a></li>
         <li><a href="#">About</a></li>
@@ -247,7 +237,7 @@
 
  <script src="js/jquery-3.6.0.js"></script>
        <script src="js/bootstrap.min.js"></script>
-	  
+	  <script src="/js/main.js"></script>
     
     </body>
     </html>
