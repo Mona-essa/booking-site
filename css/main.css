@@ -26,6 +26,7 @@ html{
 .header ul{
     list-style: none;
     display: inline-block;
+    margin-left: 77px;
 }
 .header ul li{
     display: inline-block;
